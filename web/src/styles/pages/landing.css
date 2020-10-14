@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-#page-landing page-wrapper {
+#page-landing .content-wrapper {
   position: relative;
 
   width: 100%;
@@ -22,16 +22,14 @@
   flex-direction: column;
   justify-content: space-between;
 
-  background: url('../../images/landing.svg');
-  background-repeat: no-repeat;
-  background-size: auto;
+  background: url('../../images/landing.svg') no-repeat 80% center;
 }
 
-#page-landing .page-wrapper main {
+#page-landing .content-wrapper main {
   max-width: 350px;
 }
 
-#page-landing .page-wrapper main h1 {
+#page-landing .content-wrapper main h1 {
   font-size: 76px;
   font-weight: 900;
   line-height: 70px;
